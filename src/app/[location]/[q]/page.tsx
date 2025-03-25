@@ -33,6 +33,19 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
     return {
         title: `Top ${results.length} ${qDecoded} Restaurants near ${locationDecoded} - Updated ${new Date().getFullYear()}`,
         description: `Find the best ${qDecoded} Restaurants near ${locationDecoded}`,
+        openGraph: {
+            title: `Top ${results.length} ${qDecoded} Restaurants near ${locationDecoded} - Updated ${new Date().getFullYear()}`,
+            description: `Find the best ${qDecoded} Restaurants near ${locationDecoded}`,
+            siteName: 'Restaurant Finder',
+            images: [
+                {
+                    url: 'https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=800&auto=format&fit=crop&q=60',
+                    width: 800,
+                    height: 600
+                }
+            ]
+
+        }
     };
 }
 
