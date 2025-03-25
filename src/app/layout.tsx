@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://seo.sabaiops.site",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=800&auto=format&fit=crop&q=60",
+        url: "https://seo.sabaiops.site/og-image.png",
         width: 1200, // Recommended by Open Graph
         height: 630,
         alt: "Find the best restaurants near you"
