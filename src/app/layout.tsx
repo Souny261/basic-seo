@@ -15,12 +15,20 @@ export const metadata: Metadata = {
     title: "Restaurant Finder",
     description: "Find the best restaurants near you",
     siteName: "Restaurant Finder",
+    url: "https://seo.sabaiops.site",
     images: [
       {
         url: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=800&auto=format&fit=crop&q=60",
-        width: 800,
-        height: 600
+        width: 1200, // Recommended by Open Graph
+        height: 630,
+        alt: "Find the best restaurants near you"
       }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Restaurant Finder",
+    description: "Find the best restaurants near you",
+    images: ["https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=800&auto=format&fit=crop&q=60"]
   }
 };
 
