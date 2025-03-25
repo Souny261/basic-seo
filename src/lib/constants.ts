@@ -1,0 +1,2 @@
+export const title = "Restaurant Finder - Discover Top Restaurants Near You";
+export const description = "Easily find the best restaurants near you with reviews, ratings, and menus. Explore top dining spots and hidden gems in your area!"
